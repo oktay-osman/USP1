@@ -20,4 +20,16 @@ public class Person {
    public void setAge(int age){
        this.age = age;
    }
+   
+   public String getFirstName() {
+       return this.firstName;
+   }
+   
+  public String getLastName() {
+      return this.lastName;
+  }
+  
+ public String getAge() {
+     return this.age;
+ }
 }
